@@ -76,6 +76,10 @@ object.pdf-viewer {
     height: 100%;
 }
 
+.container.pt-4#contact-form {
+    
+}
+
 /*
 @media only screen and (min-height : 1025px) {
     footer.text-center.text-white {
