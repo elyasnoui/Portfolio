@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Elyas Noui</title>
+    <link rel="shortcut icon" type="image/x-icon" href="../../image/icon.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="../../css/style.css">
+    <script defer src="../../js/all.js"></script>
+  </head>
+
+  <body>
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">
+          <img src="../../image/icon_image.png" alt="" width="50" height="50" class="d-inline-block align-text-middle">
+          <b>ELYAS</b> NOUI
+        </a>
+        <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-2">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Welcome</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../resume/resume.html">Resume</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../contact/contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!--Carousel-->
+    <div class="carousel-bg">
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="images/carousel/1.png" class="d-block w-100" alt="Space Raiders Carousel Img 1">
+        </div>
+        <div class="carousel-item">
+          <img src="images/carousel/2.png" class="d-block w-100" alt="Fox Bros Carousel Img 2">
+        </div>
+        <div class="carousel-item">
+          <img src="images/carousel/3.png" class="d-block w-100" alt="Socket Chat Carousel Img 3">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    </div>
+
+    <div class="container pt-4">
+      <h1 class="display-3 text-center text-muted my-4">WELCOME TO MY PORTFOLIO</h1>
+      <br>
+        
+      <p class="lead">
+        I am a thrid-year undergraduate student studying BSc Computer Science with Games Tech at City, University of London. This website showcases some of the projects I have done, and demonstrates my skills as a programmer/developer. Here are some highlights of my experience.
+      </p>
+        
+      <!--Cards-->
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card">
+            <img src="images/cards/java.png" class="card-img-top" alt="Java Icon. Source: https://www.stickpng.com/img/icons-logos-emojis/tech-companies/java-logo">
+            <div class="card-body">
+              <h5 class="card-title">Java Programming</h5>
+              <p class="card-text">
+                I have the most experience in Java, as it was the first programming language I extensively learned. Java has helped me grasp the basic foundations of programming, and it's with that knowledge that enables me to pick up other object-orientated programming languages with little hassle.
+              </p>
+              <a href="#" class="btn btn-primary">Java Projects</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="images/cards/html.png" class="card-img-top" alt="HTML 5 Icon. Source: https://www.stickpng.com/img/icons-logos-emojis/tech-companies/html5-logo">
+            <div class="card-body">
+              <h5 class="card-title">Web Development</h5>
+              <p class="card-text">
+                I've developed some websites, some for university modules, and some as personal projects. This website is a testament to my experience thus far when it comes to designing websites. I also have experience using the popular framework <a href="https://getbootstrap.com/">Bootstrap 5</a>.
+              </p>
+              <a href="#" class="btn btn-primary">Website Projects</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="images/cards/cpp.png" class="card-img-top" alt="C++ Icon. Source: https://www.pngegg.com/en/png-nwvsu">
+            <div class="card-body">
+              <h5 class="card-title">C++ Programming</h5>
+              <p class="card-text">
+                Programming in C++ helped improve my understanding on how data flows in memory on a program and the importance of optimising resources so that programs can run as effeciently as possible. Due to the language initately having no garbage collection the programmer must keep effeciency in mind.
+              </p>
+              <a href="#" class="btn btn-primary">C++ Projects</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="images/cards/unity.png" class="card-img-top" alt="Unity Icon. Source: https://icon-library.com/icon/unity-icon-1.html">
+            <div class="card-body">
+              <h5 class="card-title">Unity Game Development</h5>
+              <p class="card-text">
+                Unity was the first software I used to develop a game. It helped me understand that not everything in development has to be hard-coded. We can rely on tools like the animation pane or the tilemap to visualise our projects while speeding up the production time.
+              </p>
+              <a href="#" class="btn btn-primary">Unity Projects</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="images/cards/mysql.png" class="card-img-top" alt="MySQL Icon. Source: https://www.stickpng.com/img/icons-logos-emojis/tech-companies/mysql-logo">
+            <div class="card-body">
+              <h5 class="card-title">MySQL Database Management</h5>
+              <p class="card-text">
+                I have now done multiple projects which require the use of databases. Using libraries like <a href="https://docs.oracle.com/javase/8/docs/technotes/guides/jdbc/">JDBC</a>, and services like <a href="https://cloud.google.com/gcp/">Google GCP</a>, my experience includes the creation, management, hosting and connection of MySQL tables.
+              </p>
+              <a href="#" class="btn btn-primary">Database Projects</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="images/cards/gamedev.png" class="card-img-top" alt="Game Dev Icon. Source: https://www.flaticon.com/free-icon/game-development_1792274">
+            <div class="card-body">
+              <h5 class="card-title">More Game Development coming</h5>
+              <p class="card-text">
+                I'm currently creating a game using a custom game engine built off OpenGL, when it's complete I'll be adding it to my portfolio so stay tuned for an update! 
+            </div>
+          </div>
+        </div>
+      </div>
+        
+    </div>
+
+    <!--Footer-->
+    <footer class="bg-dark text-center text-white">
+      <div class="container p-4 pb-0">
+        <p class="pt-2">
+          <strong>Social Media</strong>
+        </p>
+        <section class="mb-4">
+           <!-- Twitter -->
+          <a class="btn btn-outline-light btn-floating m-1" href="https://twitter.com/real_subscriber/" role="button">
+            <i class="fab fa-twitter fa-2x"></i>
+          </a>
+      
+          <!-- Instagram -->
+          <a class="btn btn-outline-light btn-floating m-1" href="https://www.instagram.com/subscriberofficial/" role="button">
+            <i class="fab fa-instagram fa-2x"></i>
+          </a>
+      
+          <!-- Linkedin -->
+          <a class="btn btn-outline-light btn-floating m-1" href="https://www.linkedin.com/in/elyas-noui-254907165/" role="button">
+            <i class="fab fa-linkedin-in fa-2x"></i>
+          </a>
+            
+          <!-- GitHub -->
+          <a class="btn btn-outline-light btn-floating m-1" href="https://github.com/elyasnoui" role="button">
+            <i class="fab fa-github fa-2x"></i>
+          </a>
+        </section>
+      </div>
+      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+        Developed by Elyas Noui
+      </div>
+    </footer>
+
+    <script src="../../js/bootstrap5/js/bootstrap.js"></script>
+  </body>
+</html>
