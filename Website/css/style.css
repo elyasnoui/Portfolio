@@ -1,6 +1,6 @@
 .navbar {
     margin-top: 5px;
-    font-size: 25px;
+    font-size: 20px;
 }
 
 navbar navbar-expand-lg navbar-light bg-white {
@@ -8,7 +8,7 @@ navbar navbar-expand-lg navbar-light bg-white {
 }
 
 .navbar-brand {
-    font-size: 30px;
+    font-size: 25px;
 }
 
 .carousel-bg {
@@ -24,7 +24,6 @@ navbar navbar-expand-lg navbar-light bg-white {
 }
 
 .lead {
-    font-size: 30px;
     text-align: center;
     margin-bottom: 50px;
 }
@@ -51,7 +50,7 @@ navbar navbar-expand-lg navbar-light bg-white {
 
 
 footer.text-center.text-white {
-    font-size: 25px;
+    font-size: 18px;
 }
 
 /* Source for 'flex-wrapper': https://stackoverflow.com/a/51410022 */
@@ -74,10 +73,6 @@ footer.text-center.text-white {
 object.pdf-viewer {
     position: absolute;
     height: 100%;
-}
-
-.container.pt-4#contact-form {
-    
 }
 
 /*
