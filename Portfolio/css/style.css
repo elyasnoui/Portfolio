@@ -1,0 +1,51 @@
+.navbar {
+    margin-top: 5px;
+    font-size: 25px;
+}
+
+.navbar-brand {
+    font-size: 30px;
+}
+
+.test {
+    /* Image Source: https://www.toptal.com/designers/subtlepatterns/y-so-serious-pattern/ */
+    background-image: url(../html/index/images/carousel/background.png)
+}
+
+.carousel.slide {
+    height: 20%;
+    max-width: 1800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.lead {
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.row.row-cols-1.row-cols-md-3.g-4 {
+    margin-bottom: 50px;
+}
+
+.card img {
+    height: 150px;
+    width: auto;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*
+footer.text-center.text-white {
+    font-size: 20px;
+}
+@media only screen and (min-height : 1025px) {
+    footer.text-center.text-white {
+        bottom: 0;
+        position: absolute;
+        width: 100%;
+    }
+}
+*/
