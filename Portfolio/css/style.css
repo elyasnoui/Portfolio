@@ -7,7 +7,7 @@
     font-size: 30px;
 }
 
-.test {
+.carousel-bg {
     /* Image Source: https://www.toptal.com/designers/subtlepatterns/y-so-serious-pattern/ */
     background-image: url(../html/index/images/carousel/background.png)
 }
@@ -25,8 +25,8 @@
     margin-bottom: 50px;
 }
 
-.row.row-cols-1.row-cols-md-3.g-4 {
-    margin-bottom: 50px;
+.lead a {
+    color: rgb(90, 90, 90);
 }
 
 .card img {
@@ -37,10 +37,42 @@
     margin-right: auto;
 }
 
-/*
-footer.text-center.text-white {
-    font-size: 20px;
+.card-text a {
+    color: black;
 }
+
+.container.pt-4 {
+    margin-bottom: 50px;
+}
+
+
+footer.text-center.text-white {
+    font-size: 25px;
+}
+
+/* Source for 'flex-wrapper': https://stackoverflow.com/a/51410022 */
+.flex-wrapper {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* Source for 'flex-wrapper': https://stackoverflow.com/a/36091958 */
+.embed-responsive {
+    position: relative;
+    display: block;
+    height: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+object.pdf-viewer {
+    position: absolute;
+    height: 100%;
+}
+
+/*
 @media only screen and (min-height : 1025px) {
     footer.text-center.text-white {
         bottom: 0;
