@@ -75,6 +75,11 @@ object.pdf-viewer {
     height: 100%;
 }
 
+a.card-link {
+    color: black;
+    text-decoration: none;
+}
+
 /*
 @media only screen and (min-height : 1025px) {
     footer.text-center.text-white {
