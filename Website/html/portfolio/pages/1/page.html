@@ -5,18 +5,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio - Elyas Noui</title>
-    <link rel="shortcut icon" type="image/x-icon" href="../../image/icon.ico">
+    <link rel="shortcut icon" type="image/x-icon" href="../../../../image/icon.ico">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="../../css/style.css">
-    <script defer src="../../js/all.js"></script>
+    <link rel="stylesheet" href="../../../../css/style.css">
+    <script defer src="../../../../js/all.js"></script>
   </head>
 
   <body class="flex-wrapper">
     <!--Navbar-->
     <nav class="navbar navbar-expand-lg navbar-light bg-white">
       <div class="container">
-        <a class="navbar-brand" href="../index/index.html">
-          <img src="../../image/icon_image.png" alt="" width="50" height="50" class="d-inline-block align-text-middle">
+        <a class="navbar-brand" href="../../../index/index.html">
+          <img src="../../../../image/icon_image.png" alt="" width="50" height="50" class="d-inline-block align-text-middle">
           <b>ELYAS</b> NOUI
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -25,16 +25,16 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ms-auto mb-2 mb-lg-2">
             <li class="nav-item">
-              <a class="nav-link" href="../index/index.html">Welcome</a>
+              <a class="nav-link" href="../../../index/index.html">Welcome</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="portfolio.html">Portfolio</a>
+              <a class="nav-link active" aria-current="page" href="page.html">Portfolio</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="../resume/resume.html">Resume</a>
+              <a class="nav-link" href="../../../resume/resume.html">Resume</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="../contact/contact.html">Contact</a>
+              <a class="nav-link" href="../../../contact/contact.html">Contact</a>
             </li>
           </ul>
         </div>
@@ -42,104 +42,128 @@
     </nav>
       
     <div class="container pt-4">
-        
-      <h1 class="display-5 mb-5">Projects</h1>
       
       <!--Cards-->
       <div class="portfolio-cards mb-5">
+          
+        <div class="filter-line">
+          <h1 class="display-5 mb-5" style="display: inline;">Projects</h1>
+            
+          <!-- Dropdown
+          <div class="dropdown" id="portfolio">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+              Filter
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+              <li>
+                <a class="dropdown-item" href="#">Action</a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="#">Another action</a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </li>
+            </ul>
+          </div>
+          -->
+
+        </div>
+          
+          
         <div class="row row-cols-1 row-cols-md-3 g-4">
           <div class="col">
-            <a class="card-link" href="#">
+            <a class="card-link" href="../../projects/spaceraiders/spaceraiders.html" id="portfolio">
               <div class="card h-100">
-                <img src="..." class="card-img-top" alt="...">
+                <img src="images/cards/spaceraiders.png" class="card-img-top" alt="Space Raiders in-game shot.">
                 <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
+                  <h5 class="card-title">Space Raiders</h5>
                   <p class="card-text">
-                    This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.
+                    This game was developed as part of my first-year university Java module. Using <i>CityEngine</i>, which is a reskin of <i>JBox2D</i>.
                   </p>
                 </div>
                 <div class="card-footer">
-                  <small class="text-muted">Last updated 3 mins ago</small>
+                  <small class="text-muted">Java</small>
                 </div>
               </div>
             </a>
           </div>
           <div class="col">
-            <a class="card-link" href="#">
+            <a class="card-link" href="#" id="portfolio">
               <div class="card h-100">
-                <img src="..." class="card-img-top" alt="...">
+                <img src="images/cards/foxbros.png" class="card-img-top" alt="Fox Bros in-game shot.">
                 <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
+                  <h5 class="card-title">Fox Bros</h5>
                   <p class="card-text">
-                    This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.
+                    Using Unity 2D, this platformer game was designed with the inclusion of full animations and multiple levels. It also includes a variety of enemies.
                   </p>
                 </div>
                 <div class="card-footer">
-                  <small class="text-muted">Last updated 3 mins ago</small>
+                  <small class="text-muted">C#, Unity 2D</small>
                 </div>
               </div>
             </a>
           </div>
           <div class="col">
-            <a class="card-link" href="#">
+            <a class="card-link" href="#" id="portfolio">
               <div class="card h-100">
-                <img src="..." class="card-img-top" alt="...">
+                <img src="images/cards/pcpotion.png" class="card-img-top" alt="PC Potion Homepage.">
                 <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
+                  <h5 class="card-title">PC Potion</h5>
                   <p class="card-text">
-                    This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.
+                    A responsive website built without the use of a framework.
                   </p>
                 </div>
                 <div class="card-footer">
-                  <small class="text-muted">Last updated 3 mins ago</small>
+                  <small class="text-muted">HTML/CSS, PHP, JavaScript, MySQL</small>
                 </div>
               </div>
             </a>
           </div>
           <div class="col">
-            <a class="card-link" href="#">
+            <a class="card-link" href="#" id="portfolio">
               <div class="card h-100">
-                <img src="..." class="card-img-top" alt="...">
+                <img src="images/cards/bapers.PNG" class="card-img-top" alt="Bapers Login Screen">
                 <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
+                  <h5 class="card-title">Bapers Team Project</h5>
                   <p class="card-text">
-                    This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.
+                    Team project where I was assigned to programming alongside peers. Project includes GUI design, system logic and database connection.
                   </p>
                 </div>
                 <div class="card-footer">
-                  <small class="text-muted">Last updated 3 mins ago</small>
+                  <small class="text-muted">Java, Swing GUI, MySQL</small>
                 </div>
               </div>
             </a>
           </div>
           <div class="col">
-            <a class="card-link" href="#">
+            <a class="card-link" href="#" id="portfolio">
               <div class="card h-100">
-                <img src="..." class="card-img-top" alt="...">
+                <img src="images/cards/dijkstra.png" class="card-img-top" alt="Demo Interface">
                 <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
+                  <h5 class="card-title">Dijkstra's Algorithm Demo (Coming Soon)</h5>
                   <p class="card-text">
-                    This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.
+                    This demo showcases how we can use dijkstra's algoritm to find the shortest path between two given points.
                   </p>
                 </div>
                 <div class="card-footer">
-                  <small class="text-muted">Last updated 3 mins ago</small>
+                  <small class="text-muted">Python 3.5+, PyGame</small>
                 </div>
               </div>
             </a>
           </div>
           <div class="col">
-            <a class="card-link" href="#">
+            <a class="card-link" href="#" id="portfolio">
               <div class="card h-100">
-                <img src="..." class="card-img-top" alt="...">
+                <img src="images/cards/messenger.png" class="card-img-top" alt="Socket Messenger GUI">
                 <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
+                  <h5 class="card-title">Socket Server Chat</h5>
                   <p class="card-text">
-                    This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.
+                    This uses socket connection to allow clients to connect to a server being hosted on an IP. Allows up to four clients at a time to send commands to the server as well as broadcast messages to other clients.
                   </p>
                 </div>
                 <div class="card-footer">
-                  <small class="text-muted">Last updated 3 mins ago</small>
+                  <small class="text-muted">Java, Swing GUI</small>
                 </div>
               </div>
             </a>
@@ -151,13 +175,11 @@
       <nav aria-label="Page navigation example">
         <ul class="pagination justify-content-center">
           <li class="page-item disabled">
-            <a class="page-link" href="#" tabindex="-1" aria-disabled="true">Previous</a>
+            <a class="page-link" href="#" tabindex="-1" aria-disabled="true">&#60;</a>
           </li>
-          <li class="page-item"><a class="page-link" href="#">1</a></li>
-          <li class="page-item"><a class="page-link" href="#">2</a></li>
-          <li class="page-item"><a class="page-link" href="#">3</a></li>
-          <li class="page-item">
-            <a class="page-link" href="#">Next</a>
+          <li class="page-item"><a class="page-link" href="page.html">1</a></li>
+          <li class="page-item disabled">
+            <a class="page-link" href="#">&#62;</a>
           </li>
         </ul>
       </nav>
@@ -197,6 +219,6 @@
       </div>
     </footer>
 
-    <script src="../../js/bootstrap5/js/bootstrap.js"></script>
+    <script src="../../../../js/bootstrap5/js/bootstrap.js"></script>
   </body>
 </html>

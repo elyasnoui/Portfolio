@@ -5,18 +5,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio - Elyas Noui</title>
-    <link rel="shortcut icon" type="image/x-icon" href="../../image/icon.ico">
+    <link rel="shortcut icon" type="image/x-icon" href="../../../../image/icon.ico">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="../../css/style.css">
-    <script defer src="../../js/all.js"></script>
+    <link rel="stylesheet" href="../../../../css/style.css">
+    <script defer src="../../../../js/all.js"></script>
   </head>
 
   <body class="flex-wrapper">
     <!--Navbar-->
     <nav class="navbar navbar-expand-lg navbar-light bg-white">
       <div class="container">
-        <a class="navbar-brand" href="../index/index.html">
-          <img src="../../image/icon_image.png" alt="" width="50" height="50" class="d-inline-block align-text-middle">
+        <a class="navbar-brand" href="../../../index/index.html">
+          <img src="../../../../image/icon_image.png" alt="" width="50" height="50" class="d-inline-block align-text-middle">
           <b>ELYAS</b> NOUI
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -25,58 +25,36 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ms-auto mb-2 mb-lg-2">
             <li class="nav-item">
-              <a class="nav-link" href="../index/index.html">Welcome</a>
+              <a class="nav-link" href="../../../index/index.html">Welcome</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="../portfolio/pages/1/page.html">Portfolio</a>
+              <a class="nav-link active" aria-current="page" href="../../pages/1/page.html">Portfolio</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="../resume/resume.html">Resume</a>
+              <a class="nav-link" href="../../../resume/resume.html">Resume</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="contact.html">Contact</a>
+              <a class="nav-link" href="../../../contact/contact.html">Contact</a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
       
-    <div class="container pt-4" id="contact-form">
-        
-      <h1 class="display-3">Contact Me!</h1>
-        
-      <!--Form-->
-      <form class="row g-3" action="https://formsubmit.co/4a5c31a8227dd25f800f832c7b6677f5" method="POST">
-        <!--Spam Catch-->
-        <input type="text" name="_spamcatch" style="display: none;">
-          
-        <!--Removing Captcha-->
-        <input type="hidden" name="_captcha" value="false">
-          
-        <div class="col-md-6">
-          <label for="firstName" class="form-label">First Name</label>
-          <input type="text" class="form-control" name="First&nbsp;name" id="firstName" required>
-        </div>
-        <div class="col-md-6">
-          <label for="lastName" class="form-label">Last Name</label>
-          <input type="text" class="form-control" name="Last&nbsp;name" id="lastName" required>
-        </div>
-        <div class="col-md-8">
-          <label for="emailInfo" class="form-label">Email</label>
-          <input type="email" class="form-control" name="Email&nbsp;Address" id="emailInfo" required>
-        </div>
-        <div class="col-md-4">
-          <label for="phoneInfo" class="form-label">Phone Number (Optional)</label>
-          <input type="text" class="form-control" name="Phone&nbsp;Number" id="phoneInfo">
-        </div>
-        <div class="col-md-12">
-          <label for="message" class="form-label">Message</label>
-          <textarea class="form-control" name="Message" id="message" rows="8" required></textarea>
-        </div>
-        <div class="col-md-12">
-          <button type="submit" class="btn btn-primary">Send</button>
-        </div>
-      </form>
+    <div class="container pt-4">
+    
+      <a href="../../pages/1/page.html" class="btn btn-outline-secondary btn-lg mb-3" tabindex="-1" role="button" aria-disabled="true" id="project">Back to Projects</a>
+      <h1 class="display-4 mb-3">Space Raiders</h1>
+      <p class="lead">
+        As part of my first-year's module, I was assigned coursework to create a game using a university provided game engine called <i>CityEngine</i>. The game a chose to make was a knockoff version of the original Space Raiders game, all sprites used are not of my creation and were obtained from royalty-free websites.
+      </p>
+      <p class="lead">
+        The game contains 4 levels, which progressively makes the game harder as you progress. The aim of the game is to destroy all the alien spaceships before the timer runs out and obtain the highest score that you can. Coins can be collected to upgrade your spaceships's weapons as well as purchase additional lives. Upgrades can also be refunded in the case where you need more coins to purchase a life. Players are also able to create gamesaves reload into the same state they were in before. Highscores are stored locally, and a leaderboard is available to view in the main menu.
+      </p>
+      <h1 class="display-6">Demo</h1>
+      <div class="video-container">
+        <iframe width="100%" src="https://www.youtube.com/embed/ybrIYAtG_cQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
         
     </div>
       
@@ -113,6 +91,6 @@
       </div>
     </footer>
 
-    <script src="../../js/bootstrap5/js/bootstrap.js"></script>
+    <script src="../../../../js/bootstrap5/js/bootstrap.js"></script>
   </body>
 </html>
