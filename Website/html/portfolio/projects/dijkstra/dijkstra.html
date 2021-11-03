@@ -44,19 +44,21 @@
     <div class="container pt-4">
     
       <a href="../../pages/1/page.html" class="btn btn-outline-secondary btn-lg mb-3" tabindex="-1" role="button" aria-disabled="true" id="project">Back to Projects</a>
-      <a href="https://github.com/elyasnoui/Space_Invaders_1.3.git" class="btn btn-outline-secondary btn-lg mb-3" tabindex="-1" role="button" aria-disabled="true" id="project" style="float: right;">View Source Code</a>
-      <h1 class="display-4 mb-3">Space Raiders</h1>
+      <a href="https://github.com/elyasnoui/Python_Pathfinder" class="btn btn-outline-secondary btn-lg mb-3" tabindex="-1" role="button" aria-disabled="true" id="project" style="float: right;">View Source Code</a>
+      <h1 class="display-4 mb-3">Dijkstra Pathfinder</h1>
       <p class="lead">
-        As part of my first-year's module, I was assigned coursework to create a game using a university provided game engine called <i>CityEngine</i>. The game a chose to make was a knockoff version of the original Space Raiders game, all sprites used are not of my creation and were obtained from royalty-free websites.
+        This demo is written using Python, and uses the library <a href="https://www.pygame.org/news">Pygame</a> to show the implementation. <a href="https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm">Dijkstra's Algorithm</a> is for finding the shortest possible path between two points, where the weight of each path is given. This algorithm will keep exploring the shortest available path until the destination is reached, and then display the path it took to get to the destination.
       </p>
       <p class="lead">
-        The game contains 4 levels, which progressively makes the game harder as you progress. The aim of the game is to destroy all the alien spaceships before the timer runs out and obtain the highest score that you can. Coins can be collected to upgrade your spaceships's weapons as well as purchase additional lives. Upgrades can also be refunded in the case where you need more coins to purchase a life. Players are also able to create gamesaves reload into the same state they were in before. Highscores are stored locally, and a leaderboard is available to view in the main menu.
+        The Pygame application is a visual representation of this algorithm exploring the path is takes using highlights and visual cues. The application will also include a custom written pathfinding algorithm by myself, which the user can switch between when running the program. The program starts by taking the row and width of the grid the user wishes to create, and then it will generate a grid of those proportions with random numbers representating path weights. The start node is in the top-left of the grid, and the destination is in the bottom-right. The user can also edit the weight of each individual cell, this will help show the user how changing values in certain positions may affect the shortest path.
       </p>
         
-      <h1 class="display-6 mb-3">Video Demo</h1>
+      <h1 class="display-6 mb-3">Video Demo (Coming Soon)</h1>
+      <!--Coming Soon
       <div class="video-container">
-        <iframe width="100%" src="https://www.youtube.com/embed/ybrIYAtG_cQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="100%" src="https://www.youtube.com/embed/PP_rbPOi0c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       </div>
+      -->
         
     </div>
       
