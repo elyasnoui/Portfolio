@@ -13,10 +13,10 @@
 
   <body class="flex-wrapper">
     <!--Navbar-->
-    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+    <nav class="navbar navbar-expand-sm navbar-light bg-white">
       <div class="container">
         <a class="navbar-brand" href="../../../index/index.html">
-          <img src="../../../../image/icon_image.png" alt="" width="50" height="50" class="d-inline-block align-text-middle">
+          <img src="../../../../image/icon_image.png" alt="" width="35" height="35" class="d-inline-block align-text-middle">
           <b>ELYAS</b> NOUI
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -45,7 +45,7 @@
     
       <a href="../../pages/1/page.html" class="btn btn-outline-secondary btn-lg mb-3" tabindex="-1" role="button" aria-disabled="true" id="project">Back to Projects</a>
       <a href="https://github.com/elyasnoui/Python_Pathfinder" class="btn btn-outline-secondary btn-lg mb-3" tabindex="-1" role="button" aria-disabled="true" id="project" style="float: right;">View Source Code</a>
-      <h1 class="display-4 mb-3">Dijkstra Pathfinder</h1>
+      <h1 class="display-6 mb-3">Dijkstra Pathfinder</h1>
       <p class="lead">
         This demo is written using Python, and uses the library <a href="https://www.pygame.org/news">Pygame</a> to show the implementation. <a href="https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm">Dijkstra's Algorithm</a> is for finding the shortest possible path between two points, where the weight of each path is given. This algorithm will keep exploring the shortest available path until the destination is reached, and then display the path it took to get to the destination.
       </p>
@@ -53,7 +53,7 @@
         The Pygame application is a visual representation of this algorithm exploring the path is takes using highlights and visual cues. The application will also include a custom written pathfinding algorithm by myself, which the user can switch between when running the program. The program starts by taking the row and width of the grid the user wishes to create, and then it will generate a grid of those proportions with random numbers representating path weights. The start node is in the top-left of the grid, and the destination is in the bottom-right. The user can also edit the weight of each individual cell, this will help show the user how changing values in certain positions may affect the shortest path.
       </p>
         
-      <h1 class="display-6 mb-3">Video Demo (Coming Soon)</h1>
+      <h1 class="display-6 mb-3" id="video-header">Video Demo (Coming Soon)</h1>
       <!--Coming Soon
       <div class="video-container">
         <iframe width="100%" src="https://www.youtube.com/embed/PP_rbPOi0c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -64,11 +64,11 @@
       
     <!--Footer-->
     <footer class="bg-dark text-center text-white">
-      <div class="container p-4 pb-0">
-        <p class="pt-2">
+      <div class="container p-2 pb-0">
+        <p class="pt-2 mb-3">
           <strong>Social Media</strong>
         </p>
-        <section class="mb-4">
+        <section class="mb-3">
            <!-- Twitter -->
           <a class="btn btn-outline-light btn-floating m-1" href="https://twitter.com/real_subscriber/" role="button">
             <i class="fab fa-twitter fa-1x"></i>
@@ -90,7 +90,7 @@
           </a>
         </section>
       </div>
-      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+      <div class="text-center p-2" style="background-color: rgba(0, 0, 0, 0.2);">
         Developed by Elyas Noui
       </div>
     </footer>
